@@ -6,6 +6,8 @@ namespace EpamGame
     {
         public (int,int) Position { get; set; }
         public int Damage { get; set; }
+        public bool IsVisible { get; set; } = false;
+        public bool IsActive { get; set; } = true;
 
         public Trap()
         {
